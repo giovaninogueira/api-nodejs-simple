@@ -1,5 +1,4 @@
 const Handler = require('./Handler');
-
 class App extends Handler {
 
     constructor () {

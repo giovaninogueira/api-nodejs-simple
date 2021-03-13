@@ -5,6 +5,8 @@
 
 const App = require('./app/kernel/App');
 
-const appObj = new App();
-appObj.boot();
-appObj.runServer(3000);
+global.userAuth = null;
+
+global.appObj = new App();
+global.appObj.boot();
+global.appObj.runServer(3000);
